@@ -1,0 +1,97 @@
+# macOS / system files
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+Thumbs.db
+Desktop.ini
+
+# Editor and IDE state
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment and local config
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.tmp/
+.cache/
+
+# Dependencies
+node_modules/
+vendor/
+
+# JavaScript / TypeScript package manager caches
+.npm/
+.pnpm-store/
+.yarn/
+!.yarn/releases/
+!.yarn/plugins/
+!.yarn/sdks/
+!.yarn/versions/
+bun.lockb
+
+# Documentation site build output
+dist/
+build/
+out/
+public/
+site/
+.docusaurus/
+.vitepress/cache/
+.vitepress/dist/
+.vuepress/dist/
+.astro/
+.next/
+.nuxt/
+
+# Static-site and docs generator caches
+.jekyll-cache/
+.sass-cache/
+.parcel-cache/
+.turbo/
+.vercel/
+.netlify/
+
+# Python docs tooling
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+htmlcov/
+
+# MkDocs / Sphinx output
+.mkdocs_cache/
+docs/_build/
+_build/
+
+# Ruby / Jekyll dependencies
+.bundle/
+Gemfile.lock
+
+# Generated document exports
+*.pdf
+*.docx
+*.pptx
+*.xlsx
+
+# Archive exports
+*.zip
+*.tar
+*.tar.gz
+*.tgz
